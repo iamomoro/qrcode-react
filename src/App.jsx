@@ -21,6 +21,7 @@ function App() {
   };
 
   return (
+    <>
     <div className="app">
       <h1>QR Code Generator</h1>
       <input
@@ -35,8 +36,14 @@ function App() {
          <a href={qrcode} download="qrcode.png">Download</a>
       </>
       }
+    
+    
    
     </div>
+    <div className="footer">
+      Made with ❤️ by Elvis Omoro
+    </div>
+</>
   );
 }
 
