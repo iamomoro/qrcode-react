@@ -7,11 +7,15 @@ function App() {
 
   const GenerateQRCode = () => {
     QRCode.toDataURL(url, {
-      
+      width: 800,
+      margin: 2,
+      color: {
+        dark: '#000000ff',
+        light: '#ffffff'
+      }
     }, (err, url) => {
       if (err) return console.error(err);
 
-      console.log(url);
       setQrcode(url);
     });
   };
