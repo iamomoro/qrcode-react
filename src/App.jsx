@@ -27,6 +27,7 @@ function App() {
   return (
     <>
       <div className="app">
+      <h3>React JS</h3>
         <h1>QR Code Generator</h1>
         <input
           type="text"
