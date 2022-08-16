@@ -7,7 +7,7 @@
 
 body {
   text-align: center;
-  background-color: #1b2034;
+  background-color: #444444;
   color: #fff;
 }
 
@@ -39,7 +39,7 @@ a {
   border: none;
   background: none;
   cursor: pointer;
-  color: #2bcb4b;
+  color: #0886f7;
   font-size: 1.5em;
   line-height: 1;
   text-decoration: none;
